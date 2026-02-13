@@ -90,8 +90,8 @@ php artisan migrate
 
 php artisan storage:link
 
-npm run dev // rodar no vite
-php artisan serve // rodar servidor laravel
+npm run dev (em um terminal)
+php artisan serve (em outro terminal)
 ```
 
 ## Acesse em:
