@@ -1,0 +1,44 @@
+@import 'tailwindcss';
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    /* barra horizontal */
+}
+
+/* Trilha (fundo) */
+::-webkit-scrollbar-track {
+    background: #f1f5f9;
+    /* cinza bem claro */
+    border-radius: 10px;
+}
+
+/* "Polegar" (a parte que se move) */
+::-webkit-scrollbar-thumb {
+    background: #41719c;
+    /* azul Bootstrap + azul suave */
+    border-radius: 10px;
+    border: 2px solid #f1f5f9;
+    /* cria um espaçamento bonito */
+}
