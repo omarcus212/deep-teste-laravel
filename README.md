@@ -77,7 +77,7 @@ Caso o usuário não tenha foto, é exibida uma letra inicial do nome como avata
 ## Como rodar o projeto
 
 ```
-git clone https://github.com/seu-usuario/deep-teste-laravel.git
+git clone [https://github.com/seu-usuario/deep-teste-laravel.git](https://github.com/omarcus212/deep-teste-laravel)
 cd deep-teste-laravel
 
 composer install
