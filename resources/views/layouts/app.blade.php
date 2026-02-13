@@ -6,8 +6,6 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title', 'Meu App')</title>
 
-    @vite('resources/css/app.css')
-    @vite('resources/js/app.js')
     <link rel="icon" type="image/png" href="{{ asset('img/favicon.png') }}">
 
     <!-- Bootstrap -->
