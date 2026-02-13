@@ -41,8 +41,8 @@ Apenas usuários autenticados podem acessar o dashboard.
 
 ### A redefinição de senha exige:
 
-Senha atual correta
-Confirmação da nova senha
+- Senha atual correta
+- Confirmação da nova senha
 
 ### A imagem de perfil aceita apenas:
 
@@ -62,22 +62,22 @@ Caso o usuário não tenha foto, é exibida uma letra inicial do nome como avata
 
 ## Estrutura de Funcionalidades
 
-Autenticação
-Login
-Registro
-Logout
-Perfil
-Atualizar nome e e-mail
-Atualizar senha
-Upload de foto de perfil
-Dashboard
-Visualização dos dados do usuário
-Interface limpa e responsiva
+- Autenticação
+- Login
+- Registro
+- Logout
+- Perfil
+- Atualizar nome e e-mail
+- Atualizar senha
+- Upload de foto de perfil
+- Dashboard
+- Visualização dos dados do usuário
+- Interface limpa e responsiva
 
 ## Como rodar o projeto
 
 ```
-git clone https://github.com/seu-usuario/deep-teste-laravel.git
+git clone [https://github.com/seu-usuario/deep-teste-laravel.git](https://github.com/omarcus212/deep-teste-laravel)
 cd deep-teste-laravel
 
 composer install
@@ -90,8 +90,8 @@ php artisan migrate --seed
 
 php artisan storage:link
 
-npm run dev
-php artisan serve
+npm run dev // rodar no vite
+php artisan serve // rodar servidor laravel
 ```
 
 ## Acesse em:
