@@ -121,7 +121,7 @@
             <div class="mt-4">
                 <div class="row g-2">
                     <div class="">
-                        <form method="POST" action="{{ route('logout') }}">
+                        <form method="POST" action="{{ route('logout') }}" class="no-loading">
                             @csrf
                             <button type="submit" class="btn btn-success w-100 py-2 fw-bold">
                                 Sair
