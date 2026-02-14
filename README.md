@@ -107,8 +107,8 @@ php artisan storage:link
 ```
 #### Erro de permissão no storage? ####
 - Linux/Mac:
--bashchmod -R 775 storage
--chmod -R 775 bootstrap/cache
+- bashchmod -R 775 storage
+- chmod -R 775 bootstrap/cache
 
 #### Limpar cache ####
 ```
