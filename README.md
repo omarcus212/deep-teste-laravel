@@ -105,6 +105,10 @@ php artisan migrate
 ```
 php artisan storage:link
 ```
+No Git Bash (Windows) remover storage link (caso necessario):
+```
+bashrm -rf public/storage
+```
 #### Erro de permissão no storage? ####
 - Linux/Mac:
 - bashchmod -R 775 storage
