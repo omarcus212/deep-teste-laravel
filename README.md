@@ -102,6 +102,7 @@ Edite o arquivo .env e configure suas credenciais:
 ```
 php artisan migrate
 ```
+Caso o link de storage ainda não tenha sido criado.
 ```
 php artisan storage:link
 ```
