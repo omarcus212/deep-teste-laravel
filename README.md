@@ -77,7 +77,7 @@ Caso o usuário não tenha foto, é exibida uma letra inicial do nome como avata
 ## Como rodar o projeto
 
 ```
-git clone [https://github.com/seu-usuario/deep-teste-laravel.git](https://github.com/omarcus212/deep-teste-laravel)
+git clone https://github.com/omarcus212/deep-teste-laravel
 cd deep-teste-laravel
 
 composer install
@@ -89,12 +89,12 @@ php artisan key:generate
 
 ### Configure o banco de dados ###
 Edite o arquivo .env e configure suas credenciais:
-envDB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=nome_do_banco
-DB_USERNAME=seu_usuario
-DB_PASSWORD=sua_senha
+- envDB_CONNECTION=mysql
+- DB_HOST=127.0.0.1
+- DB_PORT=3306
+- DB_DATABASE=nome_do_banco
+- DB_USERNAME=seu_usuario
+- DB_PASSWORD=sua_senha
 
 ```
 php artisan migrate
