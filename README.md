@@ -85,10 +85,35 @@ npm install
 
 cp .env.example .env
 php artisan key:generate
+```
 
+### Configure o banco de dados ###
+Edite o arquivo .env e configure suas credenciais:
+envDB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=nome_do_banco
+DB_USERNAME=seu_usuario
+DB_PASSWORD=sua_senha
+
+```
 php artisan migrate
-
+```
+```
 php artisan storage:link
+```
+####Erro de permissão no storage?####
+-Linux/Mac:
+-bashchmod -R 775 storage
+-chmod -R 775 bootstrap/cache
+
+#### Limpar cache ####
+```
+php artisan cache:clear
+php artisan config:clear
+php artisan route:clear
+php artisan view:clear
+
 
 npm run dev (em um terminal)
 php artisan serve (em outro terminal)
