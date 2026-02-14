@@ -6,7 +6,6 @@
 
     <link rel="stylesheet" href="{{ asset('css/user/profile.css') }}">
     <script src="{{ asset('js/user/profile.js') }}"></script>
-    <script src="{{ asset('js/user/loading.js') }}"></script>
 
     <div class="profile-container bg-dark">
         <span class="deep-logo position-absolute top-0 start-0 p-3">

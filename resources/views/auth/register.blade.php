@@ -21,7 +21,7 @@
                         <h2 class="fw-bold">Criar conta</h2>
                     </div>
 
-                    <form method="POST" action="{{ route('register') }}">
+                    <form method="POST" action="{{ route('register') }}" class="no-loading">
                         @csrf
 
                         <!-- Nome -->

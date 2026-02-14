@@ -21,7 +21,7 @@
                         <h2 class="fw-bold">Bem-vindo</h2>
                     </div>
 
-                    <form method="POST" action="{{ route('login') }}">
+                    <form method="POST" action="{{ route('login') }}" class="no-loading">
                         @csrf
 
                         <!-- Email -->
