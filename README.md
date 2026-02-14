@@ -89,7 +89,7 @@ php artisan key:generate
 
 ### Configure o banco de dados ###
 Edite o arquivo .env e configure suas credenciais:
-- envDB_CONNECTION=mysql
+- DB_CONNECTION=mysql
 - DB_HOST=127.0.0.1
 - DB_PORT=3306
 - DB_DATABASE=nome_do_banco
