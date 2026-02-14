@@ -52,9 +52,9 @@
                             <input type="password" name="password"
                                 class="form-control form-control-lg bg-dark text-white border-secondary"
                                 placeholder="********" required>
-                            @error('password')
-                                <small class="text-danger">{{ $message }}</small>
-                            @enderror
+                           <small class="@error('password') text-danger @else text-secondary @enderror">
+                                A senha precisa ter no mínimo 8 caracteres
+                            </small>
                         </div>
 
                         <!-- Confirmar Senha -->
