@@ -82,8 +82,11 @@ cd deep-teste-laravel
 
 composer install
 npm install
-
+```
+```
 cp .env.example .env
+```
+```
 php artisan key:generate
 ```
 
@@ -113,8 +116,8 @@ php artisan cache:clear
 php artisan config:clear
 php artisan route:clear
 php artisan view:clear
-
-
+```
+```
 npm run dev (em um terminal)
 php artisan serve (em outro terminal)
 ```
