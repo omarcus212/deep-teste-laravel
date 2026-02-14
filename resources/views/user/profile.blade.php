@@ -6,6 +6,7 @@
 
     <link rel="stylesheet" href="{{ asset('css/user/profile.css') }}">
     <script src="{{ asset('js/user/profile.js') }}"></script>
+    <script src="{{ asset('js/user/loading.js') }}"></script>
 
     <div class="profile-container bg-dark">
         <span class="deep-logo position-absolute top-0 start-0 p-3">
@@ -109,12 +110,7 @@
                     </div>
 
                     <div class="row g-2">
-                        <div class="col-6">
-                            <button type="button" class="btn btn-cancel w-100 togglePasswordForm">
-                                Cancelar
-                            </button>
-                        </div>
-                        <div class="col-6">
+                        <div>
                             <button type="submit" class="btn btn-save">
                                 Atualizar
                             </button>

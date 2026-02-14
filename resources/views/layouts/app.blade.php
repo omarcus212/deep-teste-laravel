@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <title>@yield('title', 'Meu App')</title>
-
+    <link href="{{ asset('css/user/loading.css') }}" rel="stylesheet">
     <link rel="icon" type="image/png" href="{{ asset('img/favicon.png') }}">
 
     <!-- Bootstrap -->
@@ -76,6 +76,13 @@
             });
         </script>
     @endif
+
+    <div id="loading-overlay" class="loading-overlay">
+        <div class="loading-spinner">
+            <div class="spinner"></div>
+        </div>
+    </div>
+
 </body>
 
 </html>
